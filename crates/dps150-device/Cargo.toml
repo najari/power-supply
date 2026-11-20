@@ -1,0 +1,16 @@
+[package]
+name = "dps150-device"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+crossbeam-channel = "0.5.17"
+dps150-proto = { version = "0.1.0", path = "../dps150-proto" }
+log = "0.4.35"
+serialport = "4.10.1"
+thiserror = "2.0.21"
+
+[dev-dependencies]
+dps150-sim = { path = "../dps150-sim" }

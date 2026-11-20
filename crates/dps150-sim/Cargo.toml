@@ -1,0 +1,10 @@
+[package]
+name = "dps150-sim"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+dps150-device = { version = "0.1.0", path = "../dps150-device" }
+dps150-proto = { version = "0.1.0", path = "../dps150-proto" }
